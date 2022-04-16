@@ -1,0 +1,59 @@
+@import "../common/colors";
+
+.content {
+  position: relative;
+  width: 100%;
+
+}
+
+.partCalc {
+  position: relative;
+  width: 1200px;
+  margin: auto;
+  border: 2px solid #e4e4e450;
+  box-shadow: 0 -2px 5px #a3a3a3;
+  height: 400px;
+  background-color: $secondary-color;
+}
+
+.inputPart {
+position: absolute;
+  left: 100px;
+  top: 80px;
+  background-color: white;
+
+}
+
+.partSelect {
+  position: absolute;
+  left: 350px;
+  top: 70px;
+
+
+}
+
+.subBtn {
+  position: absolute;
+  left: 500px;
+  top: 90px;
+  z-index: 2;
+
+}
+.sel{
+  background-color: #FFFFFF;
+}
+.result{
+  position: absolute;
+  left: 110px;
+  top: 220px;
+  color:#FE9554;
+  font-weight: bold;
+
+
+}
+//partLoading
+.error{
+  color:$font-secondary;
+  margin-left: 300px;
+  margin-top:30px ;
+}

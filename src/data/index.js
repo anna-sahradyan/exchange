@@ -1,0 +1,1 @@
+export const API_KEY=process.env.REACT_APP_RATE_API_KEY;
